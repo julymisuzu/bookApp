@@ -1,0 +1,29 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julymisuzu/nodejs.git"
+  },
+  "author": "Juliana Santos Flor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julymisuzu/nodejs/issues"
+  },
+  "homepage": "https://github.com/julymisuzu/nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "foundation": "^4.2.1-1",
+    "foundation-sites": "^6.4.4-rc1",
+    "mongodb": "^3.0.7",
+    "mysql": "^2.15.0",
+    "pug": "^2.0.3"
+  }
+}

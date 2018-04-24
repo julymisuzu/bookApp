@@ -1,0 +1,13 @@
+html
+  head
+    title My Site - #{title}
+    block scripts
+    link(rel="stylesheet", href="/foundation/css/foundation.css")
+  body
+    block content
+    block foot
+      #footer
+        p ma footer
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+    script(src="/foundation/js/foundation.min.js")
+    script(src="/javascript/main.js")
